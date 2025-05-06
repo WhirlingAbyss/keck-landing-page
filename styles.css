@@ -37,15 +37,6 @@ body {
   margin-bottom: 5px;
 }
 
-.top-bar .cta {
-  background-color: #830000;
-  color: white;
-  text-decoration: none;
-  padding: 8px 14px;
-  font-size: 0.9rem;
-  border-radius: 4px;
-}
-
 /* Red Alert Banner */
 .alert-banner {
   background-color: #830000;
@@ -90,7 +81,7 @@ body {
 }
 
 .form-overlay h2 {
-  margin-top: 15;
+  margin-top: 15px;
   font-size: 1.5rem;
 }
 
@@ -144,5 +135,4 @@ form button:hover {
   .form-overlay {
     top: 60%;
   }
- 
 }
