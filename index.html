@@ -1,62 +1,43 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Keck Medical Center 2021 Inquiry</title>
+  <title>Keck Medical Center Notice</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<!-- Top Header -->
+<!-- Top Bar -->
 <div class="top-bar">
-  <img src="https://www.lawgarcia.com/wp-content/uploads/2023/07/Garcia-Artigliere-logo-1.jpg" alt="Garcia & Artigliere Logo" />
-  <a class="phone-number" href="tel:8002818515">Call Now: (800) 281-8515</a>
+  <div class="logo">
+    <img src="https://www.lawgarcia.com/wp-content/uploads/2023/07/Garcia-Artigliere-logo-1.jpg" alt="Garcia & Artigliere Logo">
+  </div>
+  <div class="contact">
+    <a href="tel:5305000201" class="phone">530-500-0201</a>
+  </div>
 </div>
 
-<!-- Hero Image -->
-<div class="hero-container">
+<!-- Red Alert Banner -->
+<div class="alert-banner">
+  <h1>COULD YOU NOT PROPERLY DO YOUR JOB IN 2021 AT KECK MEDICAL CENTER?</h1>
+</div>
+
+<!-- Hero Section with Floating Form -->
+<section class="hero">
   <img src="https://i.imgur.com/VrFREJP.jpeg" alt="Keck Medical Center">
-</div>
 
-<!-- Main Content -->
-<section class="main-section">
-  <h1>Did You Work at Keck Medical Center of USC in 2021?</h1>
-
-  <div class="content-form-wrapper">
-    <!-- Left Content -->
-    <div>
-      <p>
-        If you were employed at the Keck Medical Center of USC during 2021 and were prevented from effectively performing your duties, your story matters. We are collecting information from impacted individuals to determine whether further action is possible.
-      </p>
-      <p>
-        Your experience could be part of a larger issue, and sharing it may help bring accountability and resolution. All submissions are confidential.
-      </p>
-    </div>
-
-    <!-- Right Form -->
-    <div>
-      <form action="https://hooks.zapier.com/hooks/catch/XXXXX/YYYYY/" method="POST">
-        <label for="full_name">Full Name</label>
-        <input type="text" id="full_name" name="full_name" required>
-
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone">
-
-        <label for="role">What was your role?</label>
-        <input type="text" id="role" name="role" required>
-
-        <label for="experience">Describe what happened</label>
-        <textarea id="experience" name="experience" rows="5" required></textarea>
-
-        <button type="submit">Submit Confidential Inquiry</button>
-      </form>
-    </div>
+  <div class="form-overlay">
+    <h2>Contact Us Today</h2>
+    <p>If you or someone you know worked at Keck Medical Center in 2021, we want to hear your story. Confidential. No obligation.</p>
+    <form action="https://hooks.zapier.com/hooks/catch/XXXXXX/YYYYYY/" method="POST">
+      <input type="text" name="full_name" placeholder="Full Name*" required>
+      <input type="email" name="email" placeholder="Email*" required>
+      <input type="tel" name="phone" placeholder="Phone Number">
+      <input type="text" name="role" placeholder="What was your role?*" required>
+      <textarea name="experience" rows="4" placeholder="Describe what happened*" required></textarea>
+      <button type="submit">Submit Confidential Inquiry</button>
+    </form>
   </div>
 </section>
-
 </body>
 </html>
